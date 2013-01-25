@@ -3,10 +3,12 @@ html
 	head
 		meta charset="UTF-8"
 		title COOP-Revisionen
-		link href="layuot.css" rel="stylesheet" type="text/css"
+		link href="layout.css" rel="stylesheet" type="text/css"
 	body
-		div id="main"
-			div id="header"
-			div id="container"
-				yield
-			div id="follow"
+		#main
+			#header
+			#container
+				==yield
+			#follow
+				p
+					|test test.. skriver lite här
