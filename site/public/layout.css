@@ -2,14 +2,6 @@ body {
 	background-color: white
 }
 
-#header {
-	position: relative;
-	height: 200px;
-	width: auto;
-	background-color: rgb(0,153,51);
-	border: 1px solid black;
-}
-
 #main {
 	width: 1000px;
 	margin-left: auto;
@@ -18,10 +10,39 @@ body {
 	border: 1px solid black;
 }
 
+#header {
+	position: relative;
+	height: 150px;
+	width: auto;
+	margin-top: 0px;
+	background-color: rgb(0,153,51);
+}
+
+#container {
+	padding: 20px;
+}
+
 #follow {
 	position: fixed;
+	margin-left: 135px;
+	top: 605px;
+	padding: 15px;
 	border: 1px solid black;
-	height: 150px;
-	width: 900px;
-	background-color: green;
+	height: 100px;
+	width: 970px;
+	background-color: rgb(51,170,90);
+}
+h1 {
+	margin-top: 0px;
+}
+table {
+	margin-top: 85px;
+	border: 1px solid black;
+	width: 1000px;
+
+}
+th {
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	width: 250px;
 }
