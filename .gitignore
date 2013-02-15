@@ -165,3 +165,4 @@ pip-log.txt
 #stasis public
 
 site/public
+site\public
