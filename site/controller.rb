@@ -1,3 +1,6 @@
 ignore 'Gemfile*'
-layout 'login.html.slim' => ''
 layout 'layout.html.slim'
+
+before 'login.html.slim' do
+	@ignore_layout = true
+end

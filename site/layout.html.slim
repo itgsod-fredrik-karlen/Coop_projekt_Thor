@@ -5,22 +5,25 @@ html
 		title COOP-Revisionen
 		link href="layout.css" rel="stylesheet" type="text/css"
 	body
-		#main
-			#header
-				h1 COOP-revisionen
-				table
-					tr
-						th id="start"
-							a href="./index.html"
-								img src="./bilder/transparent.png"
-						th 
-							a href="./leveranorer.html"leverantörer
-						th 
-							a länder
-						th 
-							a användare
-			#container
-				==yield
-		#follow
-			p
-				|test test.. skriver lite här 
+		-if @ignore_layout == nil
+			#main
+				#header
+					h1 COOP-revisionen
+					table
+						tr
+							th id="start"
+								a href="./index.html"
+									img src="./bilder/transparent.png"
+							th 
+								a href="./leveranorer.html"leverantörer
+							th 
+								a länder
+							th 
+								a användare
+				#container
+					==yield
+			#follow
+				p
+					|test test.. skriver lite här
+		- else
+			== yield
