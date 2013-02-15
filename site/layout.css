@@ -58,14 +58,52 @@ table {
 th {
 	width: 250px;
 	height: 50px;
+}
+
+th #leverantorer, #lander {
 	border-right: 1px solid black;
 	border-left: 1px solid black;
 }
 
+th#leverantorer {
+	display: block;
+	width: 250px;
+	height: 50px;
+	background-image: url('./bilder/lev-btn-up.png');
+}
+
+th#leverantorer:active {
+	background-image: url('./bilder/lev-btn-p.png');
+}
+
+th#lander{
+	display: block;
+	width: 250px;
+	height: 50px;
+	background-image: url('./bilder/land-btn-up.png');
+}
+th#lander:active{
+	background-image: url('./bilder/land-btn-p.png');
+}
+
+th#anvandre {
+	border-left: 1px solid black;
+	display: block;
+	width: 250px;
+	height: 50px;
+	background-image: url('./bilder/anv-btn-up.png');
+}
+
+th#anvandre:active {
+	background-image: url('./bilder/anv-btn-p.png');
+}
+
 th#start {
+	border-right: 1px solid black;
 	width: 250px;
 	height: 50px;
 	background-image: url('./bilder/start-btn-up.png');
+	display: block;
 }
 
 th#start:active {
