@@ -52,15 +52,63 @@ table {
 	width: 999px;
 	border-radius: 0 0 10px 10px;
 	border-left: 0px;
+	padding: 0px;
 
 
 }
+
+#header div {
+	width: 250px;
+	height: 50px;
+	display: block;
+	float: left;
+}
+
+#start {
+	background-image: url('./bilder/start-btn-up.png');
+}
+#start:active {
+	background-image: url('./bilder/start-btn-p.png');
+}
+
+#leverantorer {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	background-image: url('./bilder/lev-up.png');
+}
+
+#leverantorer:active {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	background-image: url('./bilder/lev-p.png');
+}
+
+#lander {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	background-image: url('./bilder/land-up.png');
+}
+
+#lander:active {
+	border-right: 1px solid black;
+	background-image: url('./bilder/land-p.png');
+}
+
+#anvandare {
+	background-image: url('./bilder/anv-up.png');
+}
+#anvandare:active {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	background-image:  url('./bilder/anv-p.png');
+}
+
 th {
 	width: 250px;
 	height: 50px;
 }
 
-th #leverantorer, #lander {
+th#leverantorer, #lander {
 	border-right: 1px solid black;
 	border-left: 1px solid black;
 }
@@ -69,21 +117,23 @@ th#leverantorer {
 	display: block;
 	width: 250px;
 	height: 50px;
-	background-image: url('./bilder/lev-btn-up.png');
+	background-image: url('./bilder/lev-up.png');
+	float: left;
 }
 
 th#leverantorer:active {
-	background-image: url('./bilder/lev-btn-p.png');
+	background-image: url('./bilder/lev-p.png');
 }
 
-th#lander{
+th#lander {
 	display: block;
 	width: 250px;
 	height: 50px;
-	background-image: url('./bilder/land-btn-up.png');
+	background-image: url('./bilder/land-up.png');
+	float: left;
 }
-th#lander:active{
-	background-image: url('./bilder/land-btn-p.png');
+th#lander:active {
+	background-image: url('./bilder/land-p.png');
 }
 
 th#anvandre {
@@ -91,11 +141,12 @@ th#anvandre {
 	display: block;
 	width: 250px;
 	height: 50px;
-	background-image: url('./bilder/anv-btn-up.png');
+	background-image: url('./bilder/anv-up.png');
+	float: left;
 }
 
 th#anvandre:active {
-	background-image: url('./bilder/anv-btn-p.png');
+	background-image: url('./bilder/anv-p.png');
 }
 
 th#start {
@@ -104,6 +155,7 @@ th#start {
 	height: 50px;
 	background-image: url('./bilder/start-btn-up.png');
 	display: block;
+	float: left;
 }
 
 th#start:active {
