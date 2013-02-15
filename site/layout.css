@@ -31,7 +31,7 @@ body {
 	border: 1px solid black;
 	height: 100px;
 	width: 970px;
-	background-color: rgb(51,170,90);
+	background-color: rgb(0,153,51);
 	border-radius: 10px 10px 0 0;
 }
 
@@ -58,8 +58,9 @@ table {
 }
 
 #header div {
-	width: 250px;
-	height: 50px;
+	padding: 5px;
+	width: 238px;
+	height: 42px;
 	display: block;
 	float: left;
 }
@@ -79,12 +80,10 @@ table {
 
 #leverantorer:active {
 	border-left: 1px solid black;
-	border-right: 1px solid black;
 	background-image: url('./bilder/lev-p.png');
 }
 
 #lander {
-	border-left: 1px solid black;
 	border-right: 1px solid black;
 	background-image: url('./bilder/land-up.png');
 }
@@ -98,68 +97,7 @@ table {
 	background-image: url('./bilder/anv-up.png');
 }
 #anvandare:active {
-	border-left: 1px solid black;
-	border-right: 1px solid black;
 	background-image:  url('./bilder/anv-p.png');
-}
-
-th {
-	width: 250px;
-	height: 50px;
-}
-
-th#leverantorer, #lander {
-	border-right: 1px solid black;
-	border-left: 1px solid black;
-}
-
-th#leverantorer {
-	display: block;
-	width: 250px;
-	height: 50px;
-	background-image: url('./bilder/lev-up.png');
-	float: left;
-}
-
-th#leverantorer:active {
-	background-image: url('./bilder/lev-p.png');
-}
-
-th#lander {
-	display: block;
-	width: 250px;
-	height: 50px;
-	background-image: url('./bilder/land-up.png');
-	float: left;
-}
-th#lander:active {
-	background-image: url('./bilder/land-p.png');
-}
-
-th#anvandre {
-	border-left: 1px solid black;
-	display: block;
-	width: 250px;
-	height: 50px;
-	background-image: url('./bilder/anv-up.png');
-	float: left;
-}
-
-th#anvandre:active {
-	background-image: url('./bilder/anv-p.png');
-}
-
-th#start {
-	border-right: 1px solid black;
-	width: 250px;
-	height: 50px;
-	background-image: url('./bilder/start-btn-up.png');
-	display: block;
-	float: left;
-}
-
-th#start:active {
-	background-image: url('./bilder/start-btn-p.png');
 }
 
 /*th#start a {
