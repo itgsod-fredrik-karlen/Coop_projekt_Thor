@@ -16,6 +16,7 @@ body {
 	margin-top: 0px;
 	background-color: rgb(0,153,51);
 	border: 1px solid black;
+	border-radius: 0 0 10px 10px;
 }
 
 #container {
@@ -31,6 +32,7 @@ body {
 	height: 100px;
 	width: 970px;
 	background-color: rgb(51,170,90);
+	border-radius: 10px 10px 0 0;
 }
 
 #follow p {
@@ -48,6 +50,7 @@ table {
 	margin-top: 56px;
 	border: 1px solid black;
 	width: 1000px;
+	border-radius: 0 0 10px 10px;
 
 }
 th {
