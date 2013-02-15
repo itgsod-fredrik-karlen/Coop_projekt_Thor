@@ -11,7 +11,7 @@ body {
 
 #header {
 	position: relative;
-	height: 158px;
+	height: 157px;
 	width: auto;
 	margin-top: 0px;
 	background-color: rgb(0,153,51);
@@ -49,8 +49,10 @@ h1 {
 table {
 
 	border: 1px solid black;
-	width: 1000px;
+	width: 999px;
 	border-radius: 0 0 10px 10px;
+	border-left: 0px;
+
 
 }
 th {
