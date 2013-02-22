@@ -43,12 +43,31 @@ body {
 	float: right;
 }
 
-#hant {
+#levsince {
+	float: right;
 	border: 1px solid grey;
 	border-radius: 8px;
 	width: 100px;
 	height: 60px;
-	float: left; 
+	margin: 10px;
+}
+
+#cert {
+	float: right;
+	border: 1px solid grey;
+	border-radius: 8px;
+	width: 100px;
+	height: 60px;	
+	margin: 10px;
+}
+
+#hant {
+	float: right;
+	border: 1px solid grey;
+	border-radius: 8px;
+	width: 100px;
+	height: 60px;
+	margin: 10px;
 }
 
 #pro {
