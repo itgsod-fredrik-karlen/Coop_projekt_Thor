@@ -35,6 +35,13 @@ body {
 	border-radius: 10px 10px 0 0;
 }
 
+#hant {
+	border: 1px solid grey;
+	border-radius: 8px;
+	width: 70px;
+	height: 50px;
+}
+
 #follow p {
 	width: 333px;			
 }
@@ -110,3 +117,17 @@ a.li {
 	color: black;
 	text-decoration: none;
 }
+
+.lev {
+	width: 950px;
+	border: 1px solid grey;
+	margin-top: 10px;
+	margin-bottom:  10px;
+}
+
+.lev td, th {
+	border: 1px solid grey;
+	padding: 5px;
+	width: 190px;
+}
+
