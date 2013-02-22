@@ -60,6 +60,23 @@ body {
 	margin-left: 90px;
 }
 
+.uneven td {
+	border-right: 1px solid grey;
+}
+
+.even td {
+	border-right: 1px solid grey; 
+}
+
+.uneven {
+	margin-bottom: 20px;
+}
+
+.even {
+	margin-bottom: 20px;
+	background-color: rgb(230, 230, 230);
+}
+
 #produkt {
 	float: left;
 	border-radius: 6px 0px 0px 0px;
@@ -136,12 +153,6 @@ h1 {
 	background-image:  url('./bilder/anv-p.png');
 }
 
-/*th#start a {
-	background-image: url('./bilder/start-btn-up.png');
-}
-th#start:active a {
-	background-image: url('./bilder/start-btn-p.png');
-}*/
 form {
 	margin-left: 7px;
 }
