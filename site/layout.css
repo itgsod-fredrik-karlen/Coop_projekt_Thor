@@ -38,36 +38,39 @@ body {
 #komentarer {
 	border: 1px solid grey;
 	border-radius: 8px;
-	width: 100px;
-	height: 60px;
-	float: right;
+	width: 500px;
+	height: 50px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
 }
 
 #levsince {
-	float: right;
 	border: 1px solid grey;
 	border-radius: 8px;
 	width: 100px;
 	height: 60px;
-	margin: 10px;
+	margin: 0px 0px 10px 10px;
+	background-color: rgb(230, 230, 230);
 }
 
 #cert {
-	float: right;
-	border: 1px solid grey;
-	border-radius: 8px;
-	width: 100px;
-	height: 60px;	
-	margin: 10px;
-}
-
-#hant {
-	float: right;
 	border: 1px solid grey;
 	border-radius: 8px;
 	width: 100px;
 	height: 60px;
-	margin: 10px;
+	margin: 0px 0px 10px 10px;
+	background-color: rgb(230, 230, 230);
+}
+
+#hant {
+	border: 1px solid grey;
+	border-radius: 8px;
+	width: 100px;
+	height: 60px;
+	margin: 0px 0px 10px 10px;	
+	background-color: rgb(230, 230, 230);
 }
 
 #pro {
@@ -76,7 +79,7 @@ body {
 	float: left;
 	width: 570px;
 	height: 600px;
-	margin-left: 90px;
+	margin-left: 194px;
 }
 
 .uneven td {
