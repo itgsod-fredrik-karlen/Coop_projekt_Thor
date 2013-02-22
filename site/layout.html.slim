@@ -8,7 +8,11 @@ html
 		-if @ignore_layout == nil
 			#main
 				#header
-					img src="./bilder/coop-logo.png" style="margin-left: 145px;"
+					img id="logo" src="./bilder/coop-logo.png" style="margin-left: 145px;"
+					
+					form id="logout" name="logout" action="login.html" method="get"
+						input type="submit" value="Logout" 
+
 					#start
 						a href="./index.html"
 					#leverantorer
