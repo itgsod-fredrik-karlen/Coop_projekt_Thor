@@ -29,20 +29,17 @@ html
 					==yield
 			#follow
 				#no1 style="float: left; font-size: 20px;"
-					span Kontakta oss
+					span Kontakta oss: Mail@mail.com
 					br
-					span Kundservice
+					span Kundservice: www.kundservice.se
 					br
-					span FAQ
-				#no2 style="float: left; font-size: 20px;"
-					span något
-					br
-					span annat
+					a href=""
+						span FAQ
+				#no2 style="float: left; font-size: 20px; margin-left: 200px;"
+					a href=""
+						span Rapportera Buggar
 				#no3 style="float: left; font-size: 20px;"
-					span statistik
-					br
-					span och
-					br
-					span annat
+					form id="redigera" name="redigera" action="" method=""
+						input type="submit" value="Redigera"
 		- else
 			== yield
