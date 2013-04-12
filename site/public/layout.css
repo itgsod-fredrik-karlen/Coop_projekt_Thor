@@ -222,3 +222,7 @@ a.li {
 	float: right;
 	margin: 5px 15px;
 }
+.kontakt {
+	text-decoration: underline;
+	color: blue;
+}
