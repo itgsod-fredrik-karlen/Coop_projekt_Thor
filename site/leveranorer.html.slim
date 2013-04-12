@@ -1,9 +1,19 @@
 link href="layout.css" rel="stylecheet" type="text/css"
 h1 style="margin-left: 8px;" Lista på leverantörer
+
 form name="search"
 	input type="text" name="search"
 	input type="submit" value="Search"
-
+table
+	tr
+		th#a style="width: 40px; margin-left: 10px; border-radius: 4px;" Avklarade
+		th style="width: 45px; margin-left: 10px; border-radius: 4px;" Ikon
+		th style="width: 85px; margin-left: 10px; border-radius: 4px;" Flagga
+		th style="width: 120px; margin-left: 10px; border-radius: 4px;" Namn
+		th style="width: 150px; margin-left: 10px; border-radius: 4px;" CoC
+		th style="width: 145px; margin-left: 10px; border-radius: 4px;" Produktsäkerhet
+		th style="width: 142px; margin-left: 10px; border-radius: 4px;" Kontaktperson
+		th style="width: 90px; margin-left: 10px; border-radius: 4px;" Revition
 - 8.times do
 	a.li href="./leverantorsida.html"
 		.litem style="height: 75px; width: 950px; border-radius: 10px; background-color: rgb(220,220,220); vertical-align: middle; line-height: 75px; margin: 10px; padding: 0px; display: block;"
@@ -11,21 +21,13 @@ form name="search"
 				img src="./bilder/check.png" 
 			img src="./bilder/ollesbjorkved_liten.jpg" style="float: left; margin: 10px; border: 1px solid rgb(200, 200, 200); border-radius: 5px; vertical-align: middle; margin-left: 10px; margin-top: 7px;"
 			img src="./bilder/swedish_flag.png" style="float: left; margin-top: 20px; margin-left: 25px; margin-right: 15px; border-radius: 3px; vertical-align: middle;"
-			span style="vertical-align: middle; border-right: 1px solid grey; padding-left: 10px; padding-right: 10px; float: left;"  Olles björk-ved
+			span style="vertical-align: middle; border-right: 1px solid grey; padding-left: 10px; padding-right: 30px; float: left;"  Olles björk-ved
 			table.list style="width: 50px; float: left; border-right: 1px solid grey; width: 400px; height: 75px;"
-				tr 
-					th style="padding: 5px; border: none;"
-						p CoC-poäng
-					th style="border: none;"
-						p Produktsäkerhets-poäng
-				tr
-					th style="padding: 20pxs; border: none;"
-						p 9.3
-					th style="border: none;"
-						p 3.4
+			span style="float: left; border-right: 1px solid gray; padding-left: 70px; padding-right: 70px;" 9.3
+			span style="float: left; border-right: 1px solid gray; padding-left: 70px; padding-right: 70px"3.4
 			
-			span style="vertical-align: middle; border-right: 1px solid grey; float: left; padding-left: 10px; padding-right: 10px;" Kontakt person
-			span style="vertical-align: middle; float: left; padding-left: 15px;" PDF
+			span style="vertical-align: middle; border-right: 1px solid grey; float: left; padding-left: 30px; padding-right: 30px;" Adam Svensson
+			span style="vertical-align: middle; float: left; padding-left: 40px;" PDF
 - 8.times do
 	a.li href="./lingsbjork.html"
 		.litem style="height: 75px; width: 950px; border-radius: 10px; background-color: rgb(220,220,220); vertical-align: middle; line-height: 75px; margin: 10px; padding: 0px; display: block;"
@@ -33,20 +35,13 @@ form name="search"
 				img src="./bilder/triangle-r.png" 
 			img src="./bilder/lingsbjork_liten.jpg" style="float: left; margin: 10px; border: 1px solid rgb(200, 200, 200); border-radius: 5px; vertical-align: middle; margin-left: 10px; margin-top: 7px;"
 			img src="./bilder/kina50x33.png" style="float: left; margin-top: 20px; margin-left: 25px; margin-right: 15px; border-radius: 3px; vertical-align: middle;"
-			span style="vertical-align: middle; border-right: 1px solid grey; padding-left: 10px; padding-right: 10px; float: left;"  Lings björk-ved
+			span style="vertical-align: middle; border-right: 1px solid grey; padding-left: 10px; padding-right: 30px; float: left;"  Lings björk-ved
 			table.list style="width: 50px; float: left; border-right: 1px solid grey; width: 400px; height: 75px;"
-				tr 
-					th style="padding: 5px; border: none;"
-						p CoC-poäng
-					th style="border: none;"
-						p Produktsäkerhets-poäng
-				tr
-					th style="padding: 20pxs; border: none;"
-						p 6
-					th style="border: none;"
-						p 12
-			span style="vertical-align: middle; border-right: 1px solid grey; float: left; padding-left: 10px; padding-right: 10px;" Kontakt person
-			span style="vertical-align: middle; float: left; padding-left: 15px;" PDF
+			span style="float: left; border-right: 1px solid gray; padding-left: 70px; padding-right: 70px;" 9.3
+			span style="float: left; border-right: 1px solid gray; padding-left: 70px; padding-right: 70px"3.4
+			
+			span style="vertical-align: middle; border-right: 1px solid grey; float: left; padding-left: 30px; padding-right: 30px;" Adam Svensson
+			span style="vertical-align: middle; float: left; padding-left: 40px;" PDF
 - 8.times do
 	a.li href="./gandhisbjork.html"
 		.litem style="height: 75px; width: 950px; border-radius: 10px; background-color: rgb(220,220,220); vertical-align: middle; line-height: 75px; margin: 10px; padding: 0px; display: block;"
@@ -56,39 +51,25 @@ form name="search"
 			img src="./bilder/indien50x33.png" style="float: left; margin-top: 20px; margin-left: 25px; margin-right: 15px; border-radius: 3px; vertical-align: middle;"
 			span style="vertical-align: middle; border-right: 1px solid grey; padding-left: 10px; padding-right: 10px; float: left;"  Gandhis björk-ved
 			table.list style="width: 50px; float: left; border-right: 1px solid grey; width: 400px; height: 75px;"
-				tr 
-					th style="padding: 5px; border: none;"
-						p CoC-poäng
-					th style="border: none;"
-						p Produktsäkerhets-poäng
-				tr
-					th style="padding: 20pxs; border: none;"
-						p 20
-					th style="border: none;"
-						p 13.9
-			span style="vertical-align: middle; border-right: 1px solid grey; float: left; padding-left: 10px; padding-right: 10px;" Kontakt person
-			span style="vertical-align: middle; float: left; padding-left: 15px;" PDF
+			span style="float: left; border-right: 1px solid gray; padding-left: 70px; padding-right: 70px;" 9.3
+			span style="float: left; border-right: 1px solid gray; padding-left: 70px; padding-right: 70px"3.4
+			
+			span style="vertical-align: middle; border-right: 1px solid grey; float: left; padding-left: 30px; padding-right: 30px;" Adam Svensson
+			span style="vertical-align: middle; float: left; padding-left: 40px;" PDF
 
 a.li href="./leverantorsida.html"
 	.litem style="height: 75px; width: 950px; border-radius: 10px; background-color: rgb(220,220,220); vertical-align: middle; line-height: 75px; margin: 10px; padding: 0px; display: block;"
 		img src="./bilder/cover.png" style="position: absolute; border-radius: 10px;"
 
-		img src="./bilder/ollesbjorkved_liten.jpg" style="float: left; margin: 10px; border: 1px solid rgb(200, 200, 200); border-radius: 5px; vertical-align: middle; margin-left: 30px; margin-top: 7px;"
+		img src="./bilder/ollesbjorkved_liten.jpg" style="float: left; margin: 10px; border: 1px solid rgb(200, 200, 200); border-radius: 5px; vertical-align: middle; margin-left: 70px; margin-top: 7px;"
 		img src="./bilder/swedish_flag.png" style="float: left; margin-top: 20px; margin-left: 25px; margin-right: 15px; border-radius: 3px; vertical-align: middle;"
-		span style="vertical-align: middle; border-right: 1px solid grey; padding-left: 10px; padding-right: 10px; float: left;"  Olles björk-ved
+		span style="vertical-align: middle; border-right: 1px solid grey; padding-left: 10px; padding-right: 30px; float: left;"  Olles björk-ved
 		table.list style="width: 50px; float: left; border-right: 1px solid grey; width: 400px; height: 75px;"
-			tr 
-				th style="padding: 5px; border: none;"
-					p CoC-poäng
-				th style="border: none;"
-					p Produktsäkerhets-poäng
-			tr
-				th style="padding: 20pxs; border: none;"
-					p 9.3
-				th style="border: none;"
-					p 3.4
-		span style="vertical-align: middle; border-right: 1px solid grey; float: left; padding-left: 10px; padding-right: 10px;" Kontakt person
-		span style="vertical-align: middle; float: left; padding-left: 47px;" PDF
+		span style="float: left; border-right: 1px solid gray; padding-left: 70px; padding-right: 70px;" 9.3
+		span style="float: left; border-right: 1px solid gray; padding-left: 70px; padding-right: 70px"3.4
+		
+		span style="vertical-align: middle; border-right: 1px solid grey; float: left; padding-left: 30px; padding-right: 30px;" Adam Svensson
+		span style="vertical-align: middle; float: left; padding-left: 40px;" PDF
 
 
 br
