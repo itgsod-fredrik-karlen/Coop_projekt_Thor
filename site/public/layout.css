@@ -9,6 +9,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	height: auto;
+	vertical-align: middle;
 }
 
 #header {
@@ -27,8 +28,9 @@ body {
 
 #follow {
 	position: fixed;
-	margin-left: 135px;
-	top: 605px;
+	margin-left: -500px;
+	left: 50%;
+	top: 87%;
 	padding: 15px;
 	border: 1px solid black;
 	height: 100px;
